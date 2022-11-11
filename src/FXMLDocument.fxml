@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication2.FXMLDocumentController">
+    <children>
+      <ImageView fitHeight="249.0" fitWidth="250.0" layoutX="101.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/95734212-cinema-icons-like-popcorn-tickets-and-clapper-poster-template.jpg" />
+         </image>
+      </ImageView>
+      <Pane blendMode="ADD" layoutX="438.0" layoutY="58.0" prefHeight="397.0" prefWidth="240.0" style="-fx-background-color: #d20c0c;">
+         <children>
+            <Separator layoutX="20.0" layoutY="197.0" prefWidth="200.0" />
+            <JFXButton buttonType="RAISED" layoutX="36.0" layoutY="100.0" onAction="#loginButtonPushed" prefHeight="55.0" prefWidth="168.0" ripplerFill="BLACK" style="-fx-background-color: BLACK;" text="LOGIN" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="24.0" />
+               </font>
+               <effect>
+                  <Glow level="0.61" />
+               </effect>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="36.0" layoutY="239.0" onAction="#signupButtonPushed" prefHeight="55.0" prefWidth="168.0" ripplerFill="BLACK" style="-fx-background-color: BLACK;" text="SIGNUP" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="24.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </Pane>
+      <Label layoutX="126.0" layoutY="44.0" prefHeight="151.0" prefWidth="368.0" text="JusTix" textFill="#d70000">
+         <font>
+            <Font name="Trebuchet MS Bold" size="64.0" />
+         </font>
+      </Label>
+      <Label layoutX="651.0" layoutY="16.0" prefHeight="42.0" prefWidth="35.0" text=" X" textAlignment="CENTER" textFill="#f0dfdf">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Text fill="RED" layoutX="143.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to " wrappingWidth="128.06005859375">
+         <font>
+            <Font name="Calibri" size="24.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>

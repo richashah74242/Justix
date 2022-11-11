@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication2.movieController">
+   <children>
+      <Label prefHeight="39.0" prefWidth="700.0" style="-fx-background-color: #d20c0c;" text=" Recommended Movies">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Pane layoutX="22.0" layoutY="60.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="347.0" prefWidth="657.0">
+         <children>
+            <Pane layoutX="15.0" prefHeight="347.0" prefWidth="205.0">
+               <children>
+                  <ImageView fitHeight="243.0" fitWidth="175.0" layoutX="21.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Downloads/dream-girl-et00089745-30-11-2018-04-32-07.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="21.0" layoutY="251.0" prefHeight="59.0" prefWidth="168.0" text="Dream Girl" textFill="WHITE">
+                     <font>
+                        <Font name="Trebuchet MS" size="20.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="27.0" fitWidth="25.0" layoutX="31.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Downloads/download%20(1).jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="56.0" layoutY="274.0" prefHeight="59.0" prefWidth="168.0" text="90%" textFill="#fafdff">
+                     <font>
+                        <Font name="Segoe Print" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="226.0" prefHeight="324.0" prefWidth="205.0">
+               <children>
+                  <ImageView fitHeight="243.0" fitWidth="175.0" layoutX="21.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Downloads/MV5BYjg2ZDI2YTYtN2EwYi00YWI5LTgyMWQtMWFkYmE3NmJkOGVhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="21.0" layoutY="251.0" prefHeight="59.0" prefWidth="168.0" text="Chhichhore" textFill="#74bdf2">
+                     <font>
+                        <Font name="Segoe Print" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="60.0" layoutY="284.0" text="85%" textFill="WHITE">
+                     <font>
+                        <Font name="Segoe Print" size="21.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="49.0" fitWidth="25.0" layoutX="35.0" layoutY="291.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Downloads/images%20(2).jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="438.0" prefHeight="324.0" prefWidth="205.0">
+               <children>
+                  <ImageView fitHeight="243.0" fitWidth="168.0" layoutX="21.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Pictures/images.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="21.0" layoutY="251.0" prefHeight="59.0" prefWidth="168.0" text="The Zoya Factor" textFill="#74bdf2">
+                     <font>
+                        <Font name="Segoe Print" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="46.0" layoutY="285.0" text="69%" textFill="WHITE">
+                     <font>
+                        <Font name="Segoe Print" size="21.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="49.0" fitWidth="25.0" layoutX="21.0" layoutY="291.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../Downloads/images%20(1).jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
